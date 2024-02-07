@@ -1,5 +1,5 @@
 <script>
-	import '../app.pcss';
+	import '../app.css';
 	import { onMount } from 'svelte';
 	import NavBar from "$lib/components/NavBar.svelte";
 

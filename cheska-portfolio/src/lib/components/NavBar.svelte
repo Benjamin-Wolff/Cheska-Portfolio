@@ -51,7 +51,7 @@
 	  <a href="/" class="flex items-center space-x-5">
 		<span class="text-2xl font-medium text-black whitespace-nowrap">Francesca Morales</span>
 	  </a>
-	  <div class="hidden w-full md:flex md:items-md:w-auto" id="navbar-default">
+	  <div class="hidden md:flex md:items-md:w-auto" id="navbar-default">
 		<ul class="font-small flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-4 md:mt-0 md:border-0">      
             {#each navs as {title, href, target}}
             <li>

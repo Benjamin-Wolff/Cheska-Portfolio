@@ -23,11 +23,13 @@
 </svelte:head>
 
 <NavBar />
-<slot />
+<main class="px-4">
+	<slot />
+</main>
 
 
 <style lang="postcss">
-  :global(html, body) {
-    @apply bg-[#fff6ed];
-  }
-</style>
+	:global(html, body) {
+	  @apply bg-[#fff6ed];
+	}
+  </style>

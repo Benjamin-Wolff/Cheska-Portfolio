@@ -23,9 +23,11 @@
 </svelte:head>
 
 <NavBar />
-<main class="px-4">
+<main class="px-60 flex flex-col items-center h-screen mt-10 mb-10 pb-4">
 	<slot />
+	<div class="mb-10 h-4">Penis </div>
 </main>
+
 
 
 <style lang="postcss">

@@ -1,13 +1,53 @@
+<h1 class="text-5xl font-bold mb-4">Sip with your Sign</h1>
 
-<h1 class="text-5xl font-bold mb-4">Campaigns</h1>
+<div class="mb-8">
+	<p class="mt-4">
+		The astrological takeover has already begun, with over 60% of Gen-Z and Millennials believing
+		their sign accurately reflects their personality. Although it can feel silly, astrology is often
+		a conversation starter to learn more and dig deeper with who you are talking to.
+	</p>
+	<p class="mt-4">
+		Sip With Your Sign, a new initiative for Heineken, aims to facilitate new connections by
+		providing consumers with opportunities to engage in astrology-themed events. Through this
+		program, we hope to foster fresher and more meaningful connections among Heineken's consumers.
+	</p>
+</div>
 
-<p>Speed. Accessibility. Convenience. The three universal ingredients that can make or break your day. Introducing: Verizon'N Go Cafes. Designed to bring you the ultimate seamless experience where tech-savvy meets caffeine cravings.</p>
-<p>Verizon is teaming up with Starbucks to install street-facing takeout cafes at Verizon stores in major cities. Simply select your favorite Starbucks drink with the option to add a tech accessory on the side.</p>
-<p>Say goodbye to the hassle of running to multiple stores and say hello to Verizon'N Go.</p>
+<h2 class="text-xl font-semi mb-4">Bottle Design</h2>
 
-<p class="font-bold">Young Ones 2023 Shortlisted</p>
+<img
+	class="mb-8"
+	src="/images/heineken-bottles-1.png"
+	alt="Front of Heineken bottles for each astrological sign"
+/>
+<img
+	class="mb-8"
+	src="/images/heineken-bottles-2.png"
+	alt="Back of Heineken bottles for each astrological sign"
+/>
+<img
+	class="h-4/5 w-auto mb-8"
+	src="/images/Gemini-blowup2.png"
+	alt="Close up of Gemini-themed Heineken bottle"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Case Study Video </h2>
+<h2 class="text-xl font-semi mb-4">Packaging</h2>
+<img
+	class="h-3/5 w-auto mb-8"
+	src="/images/SWYS-Packaging.jpg"
+	alt="Packaging for box of Sip With Your Sign bottles"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Out of Home Signs </h2>
+<h2 class="text-xl font-semi mb-4">Event Posters</h2>
 
+<div class="grid grid-cols-2 gap-20 mb-8">
+	<img src="/images/EventPoster1.png" alt="Poster for Sip with Saggitaruis Night event" />
+	<img src="/images/EventPoster2.png" alt="Poster for Sip with Gemini Night event" />
+</div>
+
+<h2 class="text-xl font-semi mb-4">Pop-Up Event</h2>
+<img
+	class="mb-8"
+	src="/images/Stand-Banner.png"
+	alt="Stand and Banner for Sip with Your Sign Pop-Up Event"
+/>

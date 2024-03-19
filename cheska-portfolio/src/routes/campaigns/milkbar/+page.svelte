@@ -1,13 +1,52 @@
+<h1 class="text-5xl font-bold mb-4">One Bite Wonder</h1>
 
-<h1 class="text-5xl font-bold mb-4">Campaigns</h1>
+<div class="mb-8">
+	<p class="mt-4">
+		<b>Problem:</b> Gen-Z and Millennials value productivity and success over rest and relaxation.
+	</p>
+	<p class="mt-4">
+		<b>Solution:</b> Redefining self-care and doing what makes you happy.
+	</p>
+    <p class="mt-4">
+        <b>Idea:</b> Convince Gen-Z and Millennials that they should spend their alone time baking with Milkbar because they value self-care as much as productivity and success. 
+	</p>
+</div>
 
-<p>Speed. Accessibility. Convenience. The three universal ingredients that can make or break your day. Introducing: Verizon'N Go Cafes. Designed to bring you the ultimate seamless experience where tech-savvy meets caffeine cravings.</p>
-<p>Verizon is teaming up with Starbucks to install street-facing takeout cafes at Verizon stores in major cities. Simply select your favorite Starbucks drink with the option to add a tech accessory on the side.</p>
-<p>Say goodbye to the hassle of running to multiple stores and say hello to Verizon'N Go.</p>
+<h2 class="text-xl font-semi mb-4">Packaging</h2>
 
-<p class="font-bold">Young Ones 2023 Shortlisted</p>
+<img
+	class="mb-8"
+	src="/images/cinnamon+roll+product+packaging.png"
+	alt="Packaging for cinnamon roll Milkbar product"
+/>
+<img
+	class="mb-8"
+	src="/images/strawberry+shortcake+product+packaging.png"
+	alt="Packaging for strawberry shortcake Milkbar product"
+/>
+<img
+	class="mb-8"
+	src="/images/lava+cake+product+packaging.png"
+	alt="Packaging for lava cake Milkbar product"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Case Study Video </h2>
+<h2 class="text-xl font-semi mt-4">Out of Home Signs</h2>
+<img
+	class="mb-8"
+	src="/images/milkbar-sign1.jpeg"
+	alt="Sign for cinnamon roll Milkbar advertisement"
+/>
+<img
+	class="mb-8"
+	src="/images/milkbar-sign2.jpeg"
+	alt="Sign for lava  Milkbar advertisement"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Out of Home Signs </h2>
+<h2 class="text-xl font-semi mb-4">Social Media Posts</h2>
+
+<div class="grid grid-cols-2 gap-20 mb-8">
+	<img src="/images/milkbar-post1.png" alt="Social media post focused on strawberry shortcake Milkbar" />
+	<img src="/images/milkbar-post2.png" alt="Social media post focused on cinnamon roll Milkbar" />
+</div>
+
 

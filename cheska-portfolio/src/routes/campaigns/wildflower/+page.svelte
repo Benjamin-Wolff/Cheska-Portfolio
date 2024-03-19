@@ -1,13 +1,41 @@
+<h1 class="text-5xl font-bold mb-4">Case the Seasons</h1>
 
-<h1 class="text-5xl font-bold mb-4">Campaigns</h1>
+<div class="mb-8">
+	<p class="mt-4">
+        A phone case for all seasons. Your phone deserves some spring flowers and summer showers. We believe that there is a perfect phone case for every season. When the seasons change your phone accessories deserve to be changed too.
+	</p>
+</div>
 
-<p>Speed. Accessibility. Convenience. The three universal ingredients that can make or break your day. Introducing: Verizon'N Go Cafes. Designed to bring you the ultimate seamless experience where tech-savvy meets caffeine cravings.</p>
-<p>Verizon is teaming up with Starbucks to install street-facing takeout cafes at Verizon stores in major cities. Simply select your favorite Starbucks drink with the option to add a tech accessory on the side.</p>
-<p>Say goodbye to the hassle of running to multiple stores and say hello to Verizon'N Go.</p>
+<h2 class="text-xl font-semi mb-4">Website Changes</h2>
 
-<p class="font-bold">Young Ones 2023 Shortlisted</p>
+<img
+	class="mb-8"
+	src="/images/wildflower-web1.png"
+	alt="Wildflower website with an upgrade"
+/>
+<img
+	class="mb-8"
+	src="/images/wildflower-web2.png"
+	alt="Wildflower website with an upgrade"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Case Study Video </h2>
+<h2 class="text-xl font-semi mb-4">Out of Home Signs</h2>
+<img
+	class="mb-8"
+	src="/images/wildflower-sign1.png"
+	alt="Multiple Wildflower advertisement signs on a wall"
+/>
+<img
+	class="mb-8"
+	src="/images/wildflower-sign2.png"
+	alt="A Wildflower advertisement sign on a wall"
+/>
+<img
+	class="mb-8"
+	src="/images/wildflower-sign3.png"
+	alt="A Wildflower back-to-school advertisement sign on a wall"
+/>
 
-<h2 class="text-xl font-semi mb-4"> Out of Home Signs </h2>
+
+
 

@@ -23,7 +23,7 @@
 		},
 		{
 			title: 'Resume',
-			href: 'https://static1.squarespace.com/static/63f6179f1f72bf6dc9b7c0e5/t/65b58100d0362e2748516e12/1706393856973/Francesca+Morales+Creative+Resume+%282%29.pdf',
+			href: '/Francesca+Morales+Resume.pdf',
 			target: '_blank'
 		}
 	];

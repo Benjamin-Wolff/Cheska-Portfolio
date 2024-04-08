@@ -19,6 +19,8 @@
 </div>
 
 <h2 class="text-xl font-semi mb-4">Case Study Video</h2>
+<!-- svelte-ignore a11y-media-has-caption -->
+<video controls> <source src="/Verizon'N Go Case Study Final Ver.MOV"> </video>
 
 <h2 class="text-xl font-semi mb-4 text-center">Take Out Window</h2>
 <img
@@ -34,12 +36,12 @@
 	alt="Example sign for the Verizon'N Go Cafe"
 />
 <img
-	class="h-3/5 w-auto mb-8"
+	class="w-auto mb-8"
 	src="/images/verizon+ooh+ad+2.webp"
 	alt="Example sign for the Verizon'N Go Cafe"
 />
 <img
-	class="h-3/5 w-auto mb-8"
+	class="w-auto mb-8"
 	src="/images/verizon+ooh+ad+3.webp"
 	alt="Example sign for the Verizon'N Go Cafe"
 />

@@ -59,5 +59,6 @@
 	</div>
 	<div class="">
 		<img class="" src="/images/cheska-grad.webp" alt="Francesca in graduation clothes" />
+		<img class="" src="/images2/cheska-grad.jpeg" alt="Francesca in graduation clothes" />
 	</div>
 </div>

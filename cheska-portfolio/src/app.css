@@ -6,3 +6,7 @@
 .active {
     text-decoration: underline;
 }
+
+body {
+    color: rgb(21 128 61);
+}

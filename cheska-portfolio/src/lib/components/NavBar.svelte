@@ -1,31 +1,8 @@
 <script>
 	import { page } from '$app/stores';
+	import NavBarItem from "$lib/components/NavBarItem.svelte";
 	const navs = [
-		{
-			title: 'Home',
-			href: '/',
-			target: '_self'
-		},
-		{
-			title: 'Campaigns',
-			href: '/campaigns',
-			target: '_self'
-		},
-		{
-			title: 'Content Writing',
-			href: 'https://www.peripherymagazine.com/sexandintimacy/the-harm-of-sex-negativity',
-			target: '_blank'
-		},
-		{
-			title: 'About Me',
-			href: '/about',
-			target: '_self'
-		},
-		{
-			title: 'Resume',
-			href: '/Francesca+Morales+Resume.pdf',
-			target: '_blank'
-		}
+		
 	];
 	$: routeId = $page.route.id;
 
@@ -71,18 +48,50 @@
             <ul
                 class="text-sm flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-1 md:mt-0 md:border-0"
             >
-                {#each navs as { title, href, target }}
-                    <li>
-                        <a
-                            {href}
-                            {title}
-                            class="py-2 px-3 text-gray-900 rounded md:border-0 md:hover:text-fuchsia-700"
-                            {target}
-                            rel="noopener noreferrer"
-                            class:active={routeId == href}>{title}</a
-                        >
-                    </li>
-                {/each}
+			<li>
+				<NavBarItem
+					title="Home"
+					href="/"
+					target="_self"
+					routeId={routeId}
+				/>
+			</li>
+		
+			<li>
+				<NavBarItem
+					title="Campaigns"
+					href="/campaigns"
+					target="_self"
+					routeId={routeId}
+				/>
+			</li>
+		
+			<li>
+				<NavBarItem
+					title="Content Writing"
+					href="https://www.peripherymagazine.com/sexandintimacy/the-harm-of-sex-negativity"
+					target="_blank"
+					routeId={routeId}
+				/>
+			</li>
+		
+			<li>
+				<NavBarItem
+					title="About Me"
+					href="/about"
+					target="_self"
+					routeId={routeId}
+				/>
+			</li>
+		
+			<li>
+				<NavBarItem
+					title="Resume"
+					href="/Francesca+Morales+Resume.pdf"
+					target="_blank"
+					routeId={routeId}
+				/>
+			</li>
                 <li class="relative">
                     <button id="dropdownDefaultButton" class="py-2 px-3 text-gray-900 rounded md:border-0 md:hover:text-fuchsia-700" type="button">Projects</button>
                         
@@ -105,8 +114,3 @@
     </div>
 </nav>
 
-<style>
-	.active {
-		text-decoration: underline;
-	}
-</style>

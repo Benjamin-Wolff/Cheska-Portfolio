@@ -1,4 +1,8 @@
 <script>
+    export let title;
+    export let href;
+    export let target;
+    export let routeId;
 
 </script>
 
@@ -8,5 +12,6 @@
     class="py-2 px-3 text-gray-900 rounded md:border-0 md:hover:text-fuchsia-700"
     {target}
     rel="noopener noreferrer"
-    class:active={routeId == href}>{title}</a
->
+    class:active={routeId == href}>{title}
+</a>
+

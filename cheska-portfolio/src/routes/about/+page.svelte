@@ -58,6 +58,6 @@
 		</p>
 	</div>
 	<div class="">
-		<img class="" src="/images/cheska-grad.jpeg" alt="Francesca in graduation clothes" />
+		<img class="" src="/images/cheska-grad.webp" alt="Francesca in graduation clothes" />
 	</div>
 </div>

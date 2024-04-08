@@ -17,43 +17,45 @@
 
 <img
 	class="mb-8"
-	src="/images/heineken-bottles-1.png"
+	src="/images/heineken-bottles-1.webp"
 	alt="Front of Heineken bottles for each astrological sign"
 />
 <img
 	class="mb-8"
-	src="/images/heineken-bottles-2.png"
+	src="/images/heineken-bottles-2.webp"
 	alt="Back of Heineken bottles for each astrological sign"
 />
 <img
 	class="h-4/5 w-auto mb-8"
-	src="/images/Gemini-blowup2.png"
+	src="/images/Gemini-blowup2.webp"
 	alt="Close up of Gemini-themed Heineken bottle"
 />
 
 <h2 class="text-xl font-semi mb-4">Packaging</h2>
 <img
 	class="h-3/5 w-auto mb-8"
-	src="/images/SWYS-Packaging.jpg"
+	src="/images/SWYS-Packaging.webp"
 	alt="Packaging for box of Sip With Your Sign bottles"
 />
 
 <h2 class="text-xl font-semi mb-4">Event Posters</h2>
 
 <div class="grid grid-cols-2 gap-20 mb-8">
-	<img src="/images/EventPoster1.png" alt="Poster for Sip with Saggitaruis Night event" />
-	<img src="/images/EventPoster2.png" alt="Poster for Sip with Gemini Night event" />
+	<img src="/images/EventPoster1.webp" alt="Poster for Sip with Saggitaruis Night event" />
+	<img src="/images/EventPoster2.webp" alt="Poster for Sip with Gemini Night event" />
 </div>
 
 <h2 class="text-xl font-semi mb-4">Pop-Up Event</h2>
 <img
 	class="mb-8"
-	src="/images/Stand-Banner.png"
+	src="/images/Stand-Banner.webp"
 	alt="Stand and Banner for Sip with Your Sign Pop-Up Event"
 />
 
 <a href="/campaigns">
-    <button class="bg-black border-transparent hover:bg-gray-700 rounded-none text-white font-bold mt-28 py-6 px-4 w-60">
-        see my other campaigns
-    </button>
+	<button
+		class="bg-black border-transparent hover:bg-gray-700 rounded-none text-white font-bold mt-28 py-6 px-4 w-60"
+	>
+		see my other campaigns
+	</button>
 </a>

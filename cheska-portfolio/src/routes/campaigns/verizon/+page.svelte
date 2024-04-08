@@ -22,6 +22,10 @@
 <img class="h-3/5 w-auto mb-8" src="/images/verizon+ooh+ad+2.jpg" alt="Example sign for the Verizon'N Go Cafe" />
 <img class="h-3/5 w-auto mb-8" src="/images/verizon+ooh+ad+3.jpg" alt="Example sign for the Verizon'N Go Cafe" />
 
-<div></div>
+<a href="/campaigns">
+    <button class="bg-black border-transparent hover:bg-gray-700 rounded-none text-white font-bold mt-28 py-6 px-4 w-60">
+        see my other campaigns
+    </button>
+</a>
 
 

@@ -51,3 +51,9 @@
 	src="/images/Stand-Banner.png"
 	alt="Stand and Banner for Sip with Your Sign Pop-Up Event"
 />
+
+<a href="/campaigns">
+    <button class="bg-black border-transparent hover:bg-gray-700 rounded-none text-white font-bold mt-28 py-6 px-4 w-60">
+        see my other campaigns
+    </button>
+</a>

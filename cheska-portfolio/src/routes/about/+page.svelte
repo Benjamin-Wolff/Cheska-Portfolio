@@ -16,9 +16,9 @@
 	});
 </script>
 
-<h1 class="text-5xl font-bold mb-4">About Me</h1>
+<h1 class="text-5xl font-bold mb-4 text-center">About Me</h1>
 
-<h2 class="text-xl font-semi mx-0">My name is Francesca, but you can call me Cheska :)</h2>
+<h2 class="text-xl font-semi mx-0 text-center">My name is Francesca, but you can call me Cheska :)</h2>
 <div class="flex justify-between mx-36 mt-8">
 	<div class="pr-8 mt-10">
 		<!-- Paragraphs -->
@@ -59,6 +59,6 @@
 	</div>
 	<div class="">
 		<img class="" src="/images/cheska-grad.webp" alt="Francesca in graduation clothes" />
-		<img class="" src="/images2/cheska-grad.jpeg" alt="Francesca in graduation clothes" />
 	</div>
 </div>
+

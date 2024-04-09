@@ -26,7 +26,7 @@
 <div class="flex flex-col min-h-screen">
     <main class="flex-1 px-60 flex flex-col items-center mt-10 mb-10 pb-4">
         <!-- Main content goes here -->
-        <slot />
+        <slot/>
     </main>
 
     <footer class="py-6 px-12 flex justify-between items-center bg-black w-full">
@@ -43,7 +43,7 @@
 				target="_blank"
 				rel="noopener noreferrer"
 			>
-				<i class="fa-brands fa-linkedin"></i>
+				<i class="fa-brands fa-linkedin text-white md:hover:text-fuchsia-700"></i>
 			</a>
 		</div>
 	</footer>	

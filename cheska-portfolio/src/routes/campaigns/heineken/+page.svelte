@@ -13,7 +13,7 @@
 	</p>
 </div>
 
-<h2 class="text-xl font-semi mb-4">Bottle Design</h2>
+<h2 class="font-semi mb-4">Bottle Design</h2>
 
 <img
 	class="mb-8"
@@ -31,21 +31,21 @@
 	alt="Close up of Gemini-themed Heineken bottle"
 />
 
-<h2 class="text-xl font-semi mb-4">Packaging</h2>
+<h2 class="font-semi mb-4">Packaging</h2>
 <img
 	class="h-3/5 w-auto mb-8"
 	src="/images/SWYS-Packaging.webp"
 	alt="Packaging for box of Sip With Your Sign bottles"
 />
 
-<h2 class="text-xl font-semi mb-4">Event Posters</h2>
+<h2 class="font-semi mb-4">Event Posters</h2>
 
 <div class="grid grid-cols-2 gap-20 mb-8">
 	<img src="/images/EventPoster1.webp" alt="Poster for Sip with Saggitaruis Night event" />
 	<img src="/images/EventPoster2.webp" alt="Poster for Sip with Gemini Night event" />
 </div>
 
-<h2 class="text-xl font-semi mb-4">Pop-Up Event</h2>
+<h2 class="font-semi mb-4">Pop-Up Event</h2>
 <img
 	class="mb-8"
 	src="/images/Stand-Banner.webp"

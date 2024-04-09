@@ -13,7 +13,7 @@
 	</p>
 </div>
 
-<h2 class="text-xl font-semi mb-4">Packaging</h2>
+<h2 class="font-semi mb-4">Packaging</h2>
 
 <img
 	class="mb-8"
@@ -31,7 +31,7 @@
 	alt="Packaging for lava cake Milkbar product"
 />
 
-<h2 class="text-xl font-semi mt-4">Out of Home Signs</h2>
+<h2 class="font-semi mt-4">Out of Home Signs</h2>
 <img
 	class="mb-8"
 	src="/images/milkbar-sign1.webp"
@@ -39,7 +39,7 @@
 />
 <img class="mb-8" src="/images/milkbar-sign2.webp" alt="Sign for lava  Milkbar advertisement" />
 
-<h2 class="text-xl font-semi mb-4">Social Media Posts</h2>
+<h2 class="font-semi mb-4">Social Media Posts</h2>
 
 <div class="grid grid-cols-2 gap-20 mb-8">
 	<img

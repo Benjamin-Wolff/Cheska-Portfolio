@@ -18,18 +18,18 @@
 	<p class="font-bold mt-6">Young Ones 2023 Shortlisted</p>
 </div>
 
-<h2 class="text-xl font-semi mb-4">Case Study Video</h2>
+<h2 class="font-semi mb-4">Case Study Video</h2>
 <!-- svelte-ignore a11y-media-has-caption -->
-<video controls> <source src="/Verizon'N Go Case Study Final Ver.MOV"> </video>
+<video class="mb-8" controls> <source src="/Verizon'N Go Case Study Final Ver.MOV"> </video>
 
-<h2 class="text-xl font-semi mb-4 text-center">Take Out Window</h2>
+<h2 class="font-semi mb-4 text-center">Take Out Window</h2>
 <img
 	class="h-1/2 w-auto transform mb-8"
 	src="/images/verizon takeout window.webp"
 	alt="Example exterior of the Verizon'N Go Cafe"
 />
 
-<h2 class="text-xl font-semi mb-4">Out of Home Signs</h2>
+<h2 class="font-semi mb-4">Out of Home Signs</h2>
 <img
 	class="h-3/5 w-auto mb-8"
 	src="/images/verizon+ooh+ad+1.webp"

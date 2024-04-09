@@ -1,7 +1,20 @@
+
 <script>
-    export let title;
+    /**
+	 * @type {string}
+	 */
+     export let title;
+    /**
+	 * @type {string}
+	 */
     export let href;
+    /**
+	 * @type {string}
+	 */
     export let target;
+    /**
+	 * @type {string}
+	 */
     export let routeId;
 
 </script>

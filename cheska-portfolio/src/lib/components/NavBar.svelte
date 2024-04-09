@@ -1,4 +1,6 @@
 <script>
+    // @ts-nocheck
+
 	import { page } from '$app/stores';
 	import NavBarItem from '$lib/components/NavBarItem.svelte';
 	const navs = [];

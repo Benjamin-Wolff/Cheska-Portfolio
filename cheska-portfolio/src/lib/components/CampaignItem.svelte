@@ -7,7 +7,7 @@
 
 <div>
     <a
-    href={`campaigns/${page}`}
+    href={page}
     class="relative overflow-hidden group flex items-center justify-center"
     >
         <img

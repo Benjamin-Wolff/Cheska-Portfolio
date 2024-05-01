@@ -6,21 +6,6 @@
 	const navs = [];
 	$: routeId = $page.route.id;
 
-	import { onMount } from 'svelte';
-
-	onMount(() => {
-		const script = document.createElement('script');
-		script.src = 'https://kit.fontawesome.com/7dd54571e5.js';
-		script.crossOrigin = 'anonymous';
-		script.async = true;
-
-		document.head.appendChild(script);
-
-		return () => {
-			// Cleanup script tag if the component is unmounted
-			document.head.removeChild(script);
-		};
-	});
 
 	let isDropdownOpen = false; // default state (dropdown close)
 
@@ -51,11 +36,10 @@
 				<li class="relative dropdown" on:focusout={handleDropdownFocusLoss}>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-static-element-interactions -->
-					<button
-						id="dropdownDefaultButton"
+					<div
 						class="px-3 text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 shadow-none"
 						on:click={handleDropdownClick}
-						class:active={routeId == '/campaigns'}>Projects</button>
+						class:active={routeId == '/campaigns'}>Projects</div>
 					<!-- Dropdown menu -->
 					<ul
 						class="flex-col p-2 shadow bg-base-100 rounded-box w-40"
@@ -97,9 +81,15 @@
 						target="_blank"
 						rel="noopener noreferrer"
 					>
-						<i class="fa-brands fa-linkedin-in text-green-800 md:hover:text-fuchsia-700"></i>
+						<svg class="w-3 h-auto mt-0.5 fill-green-800 hover:fill-fuchsia-700" 
+							 xmlns="http://www.w3.org/2000/svg" 
+							 viewBox="0 0 448 450">
+							<path d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z"/>
+						</svg>
 					</a>
+					
 				</li>
+				
 			</ul>
 		</div>
 	</div>

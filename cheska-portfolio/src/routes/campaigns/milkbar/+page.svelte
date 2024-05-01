@@ -1,19 +1,19 @@
-<h1 class="text-5xl font-bold mb-4">One Bite Wonder</h1>
+<h1 class="text-5xl font-bold mb-4 text-green-800">One Bite Wonder</h1>
 
 <div class="mb-8">
-	<p class="mt-4">
+	<p class="mt-4 text-green-800">
 		<b>Problem:</b> Gen-Z and Millennials value productivity and success over rest and relaxation.
 	</p>
-	<p class="mt-4">
+	<p class="mt-4 text-green-800">
 		<b>Solution:</b> Redefining self-care and doing what makes you happy.
 	</p>
-	<p class="mt-4">
+	<p class="mt-4 text-green-800">
 		<b>Idea:</b> Convince Gen-Z and Millennials that they should spend their alone time baking with Milkbar
 		because they value self-care as much as productivity and success.
 	</p>
 </div>
 
-<h2 class="font-semi mb-4">Packaging</h2>
+<h2 class="font-semi mb-4 text-green-800">Packaging</h2>
 
 <img
 	class="mb-8"
@@ -31,7 +31,7 @@
 	alt="Packaging for lava cake Milkbar product"
 />
 
-<h2 class="font-semi mt-4">Out of Home Signs</h2>
+<h2 class="font-semi mt-4 text-green-800">Out of Home Signs</h2>
 <img
 	class="mb-8"
 	src="/images/milkbar-sign1.webp"
@@ -39,7 +39,7 @@
 />
 <img class="mb-8" src="/images/milkbar-sign2.webp" alt="Sign for lava  Milkbar advertisement" />
 
-<h2 class="font-semi mb-4">Social Media Posts</h2>
+<h2 class="font-semi mb-4 text-green-800">Social Media Posts</h2>
 
 <div class="grid grid-cols-2 gap-20 mb-8">
 	<img

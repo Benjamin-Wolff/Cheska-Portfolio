@@ -23,6 +23,14 @@ jobs:
           npm install
           npm run build
 
+      - name: Clean server directory
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: rm -rf /var/www/portfolio/*
+
       - name: Deploy via SCP
         uses: appleboy/scp-action@v0.1.7
         with:

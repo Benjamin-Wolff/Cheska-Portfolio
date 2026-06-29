@@ -39,7 +39,7 @@
 					<div
 						class="px-3 text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 shadow-none"
 						on:click={handleDropdownClick}
-						class:active={routeId == '/campaigns'}>Projects TEST</div>
+						class:active={routeId == '/campaigns'}>Projects</div>
 					<!-- Dropdown menu -->
 					<ul
 						class="flex-col p-2 shadow bg-base-100 rounded-box w-40"

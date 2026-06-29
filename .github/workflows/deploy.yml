@@ -31,3 +31,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           source: "cheska-portfolio/build/*"
           target: "/var/www/portfolio"
+          strip_components: 2
+          overwrite: true

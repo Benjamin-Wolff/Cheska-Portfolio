@@ -1,4 +1,3 @@
-
 <h1 class="text-5xl font-bold mb-4 text-center text-green-800">About Me</h1>
 
 <h2 class="text-xl font-semi mx-0 text-center text-green-800">My name is Francesca, but you can call me Cheska :)</h2>
@@ -47,8 +46,8 @@
 		<div class="flex justify-center lg:justify-end lg:flex-1">
 			<img
 				class="w-full min-w-[250px] max-w-md lg:max-w-lg h-auto object-contain"
-				src="/images/cheska-grad.webp"
-				alt="Francesca in graduation clothes"
+				src="/images/cheska-pic.webp"
+				alt="Francesca outside"
 			/>
 		</div>
 	</div>

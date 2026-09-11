@@ -56,7 +56,7 @@
 						</li>
 						<li>
 							<a
-								href="https://www.peripherymagazine.com/sexandintimacy/the-harm-of-sex-negativity"
+								href="https://www.peripherymagazine.org/activism/the-harm-of-sex-negativity"
 								class="text-sm text-green-800 rounded md:border-0 md:hover:text-fuchsia-700"
 								target="_blank">Content Writing</a
 							>

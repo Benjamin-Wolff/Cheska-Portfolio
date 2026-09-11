@@ -113,3 +113,38 @@ fallback: 'index.html'
 from `svelte.config.js` and adjusting the Caddy configuration to serve the generated route directories directly.
 
 The current SPA configuration should therefore be considered a deliberate choice, not an accidental configuration.
+
+## Server / Infrastructure
+
+The production server uses Caddy to serve the static SvelteKit build.
+
+### Important Paths
+
+- `/var/www/portfolio` — deployed website files
+- `/etc/caddy/Caddyfile` — Caddy configuration
+
+### Useful Commands
+
+Check Caddy status:
+
+```bash
+sudo systemctl status caddy
+```
+
+View Caddy logs:
+
+```bash
+sudo journalctl -u caddy --since "1 hour ago"
+```
+
+Reload Caddy after changing the Caddyfile:
+
+```bash
+sudo systemctl reload caddy
+```
+
+View deployed website files:
+
+```bash
+ls /var/www/portfolio
+```

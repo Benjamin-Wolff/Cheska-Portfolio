@@ -69,7 +69,7 @@
 				<li>
 					<NavBarItem
 						title="Resume"
-						href="/Francesca+Morales+Resume.pdf?v=2""
+						href="/Francesca+Morales+Resume.pdf?v=2"
 						target="_blank"
 						{routeId}
 					/>

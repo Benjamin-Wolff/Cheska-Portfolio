@@ -17,7 +17,7 @@
     <footer class="py-6 px-12 flex justify-between items-center bg-black w-full">
 		<!-- Left section -->
 		<div class="flex items-center">
-			<p class="text-white mb-0">&copy; Francesca Morales 2024</p>
+			<p class="text-white mb-0">&copy; Francesca Morales 2026</p>
 		</div>
 		
 		<!-- Right section -->

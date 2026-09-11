@@ -7,12 +7,12 @@
 		<!-- Paragraphs -->
 		<p class="mb-4 text-green-800">
 			🍄🧚🏼‍♀️💫🍓 I'm a creative and enthusiastic advertising graduate from Boston University with a natural
-			flair for art direction! When I'm not dreaming up the next big ad campaign I'm working as an
+			flair for art direction! When I'm not dreaming up the next big ad campaign I'm working as a Regional Marketing
 			Associate at <a
 				class="underline text-black"
-				href="https://www.stantonchase.com/office/executive-search-firm-in-boston-united-states"
+				href="https://www.forvismazars.us/"
 				target="_blank"
-				>Stanton Chase</a
+				>Forvis Mazars</a
 			>.
 		</p>
 		<p class="mb-4 text-green-800">Here's the rundown on me:</p>

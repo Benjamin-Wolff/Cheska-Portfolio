@@ -7,9 +7,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
 </svelte:head>
 
-<NavBar />
 <div class="flex flex-col min-h-screen">
-    <main class="flex-1 px-6 sm:px-10 lg:px-16 flex flex-col items-center mt-10 mb-10 pb-4">
+	<NavBar />
+    <main class="flex-1 px-6 sm:px-10 lg:px-16 flex flex-col items-center mt-10 mb-0 pb-0">
         <!-- Main content goes here -->
         <slot/>
     </main>

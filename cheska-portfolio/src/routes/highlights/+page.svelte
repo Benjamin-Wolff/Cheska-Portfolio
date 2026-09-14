@@ -9,11 +9,11 @@
 			target="_blank"
 			rel="noopener noreferrer"
 		>
-			Forvis Mazars</a>, I have built partnerships with associations across industries such as technology & services, healthcare, and consumer & logistics.
+			Forvis Mazars</a>, I have built partnerships with <br/> associations across industries such as technology & services, healthcare, and consumer & logistics.
 	</h3>
 
 <h3 class="text-xl font-normal mb-4 text-green-800">
-	To further these relationships, I have coordinated events to expand brand awareness in the Northeast Region.
+	To further these relationships, I have coordinated events to expand brand awareness <br/> across the Northeast Region.
 </h3>
 
 <h3 class="text-xl font-normal text-green-800 text-center">

@@ -1,24 +1,31 @@
 <script>
-    // @ts-nocheck
-
+	import { onMount } from 'svelte';
 	import { page } from '$app/stores';
 	import NavBarItem from '$lib/components/NavBarItem.svelte';
-	const navs = [];
+
 	$: routeId = $page.route.id;
 
+	let openDropdown = null;
 
-	let isDropdownOpen = false; // default state (dropdown close)
-
-	const handleDropdownClick = () => {
-		isDropdownOpen = !isDropdownOpen; // togle state on click
+	const handleDropdownClick = (dropdown) => {
+		openDropdown = openDropdown === dropdown ? null : dropdown;
 	};
 
-	// @ts-ignore
-	const handleDropdownFocusLoss = ({ relatedTarget, currentTarget }) => {
-		// use "focusout" event to ensure that we can close the dropdown when clicking outside or when we leave the dropdown with the "Tab" button
-		if (relatedTarget instanceof HTMLElement && currentTarget.contains(relatedTarget)) return;
-		isDropdownOpen = false;
-	};
+	onMount(() => {
+		const handleOutsideClick = (event) => {
+			const navbar = document.getElementById('navbar');
+
+			if (navbar && !navbar.contains(event.target)) {
+				openDropdown = null;
+			}
+		};
+
+		document.addEventListener('click', handleOutsideClick);
+
+		return () => {
+			document.removeEventListener('click', handleOutsideClick);
+		};
+	});
 </script>
 
 <nav id="navbar" class="relative z-20 border-gray-200">
@@ -33,22 +40,55 @@
 				<li>
 					<NavBarItem title="Home" href="/" target="_self" {routeId} />
 				</li>
-				<li>
-					<NavBarItem title="Current Work" href="/highlights" target="_self" {routeId} />
-				</li>
-				<li class="relative dropdown" on:focusout={handleDropdownFocusLoss}>
+				<li class="relative dropdown">
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-static-element-interactions -->
 					<div
 						class="px-3 text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 shadow-none"
-						on:click={handleDropdownClick}
-						class:active={routeId == '/campaigns'}>Past Work</div>
+						on:click={() => handleDropdownClick('current')}
+						class:active={routeId == '/highlights' || routeId == '/bibingkafe'}
+					>
+						Current Work
+					</div>
+					<ul
+						class="flex-col p-2 shadow bg-base-100 rounded-box w-40"
+						style="visibility: {openDropdown === 'current' ? 'visible' : 'hidden'}; position: absolute; top: calc(100% + 2px); left: 0;"
+					>
+						<li>
+							<a
+								href="/highlights"
+								class="text-sm text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 text-left"
+								target="_self"
+							>
+								Forvis Mazars
+							</a>
+						</li>
+				
+						<li>
+							<a
+								href="/bibingkafe"
+								class="text-sm text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 text-left"
+								target="_self"
+							>
+								Bibingkafe
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="relative dropdown">
+					<!-- svelte-ignore a11y-click-events-have-key-events -->
+					<!-- svelte-ignore a11y-no-static-element-interactions -->
+					<div
+						class="px-3 text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 shadow-none"
+						on:click={() => handleDropdownClick('past')}
+						class:active={routeId == '/campaigns'}
+					>
+						Past Work
+					</div>
 					<!-- Dropdown menu -->
 					<ul
 						class="flex-col p-2 shadow bg-base-100 rounded-box w-40"
-						style="visibility: {isDropdownOpen
-							? 'visible'
-							: 'hidden'}; position: absolute; top: calc(100% + 2px); left: 0;"
+						style="visibility: {openDropdown === 'past' ? 'visible' : 'hidden'}; position: absolute; top: calc(100% + 2px); left: 0;"
 					>
 						<li>
 							<a

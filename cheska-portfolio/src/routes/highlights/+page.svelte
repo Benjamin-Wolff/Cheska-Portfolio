@@ -1,7 +1,7 @@
 <h1 class="text-5xl font-bold mb-4 text-green-800">Highlights</h1>
 
 <div class="max-w-4xl mx-auto mb-8">
-	<h3 class="text-xl font-normal mb-4 text-green-800 text-center">
+	<h3 class="text-xl font-normal mb-4 text-green-800">
 		In my role as a Regional Marketing Associate at
 		<a
 			class="underline text-black"

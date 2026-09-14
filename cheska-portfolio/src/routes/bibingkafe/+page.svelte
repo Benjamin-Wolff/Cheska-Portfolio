@@ -25,12 +25,12 @@
 
 <div class="flex items-center justify-center gap-8 mt-10">
 	<div class="flex flex-col items-center">
+        <p class="mt-2 text-green-800">Old Logo</p>
 		<img
 			src="/images3/Bibingkafe+old+logo.png"
 			alt="Old Bibingkafe logo"
 			class="max-w-xs"
 		/>
-		<p class="mt-2 text-green-800">Old Logo</p>
 	</div>
 
 <div class="text-4xl text-green-800">
@@ -38,12 +38,12 @@
 </div>
 
 <div class="flex flex-col items-center">
+    <p class="mt-2 text-green-800">New Logo</p>
 	<img
 		src="/images3/Bibingkafe+new+logo.png"
 		alt="New Bibingkafe logo"
 		class="max-w-xs"
 	/>
-	<p class="mt-2 text-green-800">New Logo</p>
 </div>
 
 </div>

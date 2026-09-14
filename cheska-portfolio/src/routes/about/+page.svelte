@@ -45,7 +45,7 @@
 
 		<div class="flex justify-center lg:justify-end lg:flex-1">
 			<img
-				class="w-full min-w-[250px] max-w-md lg:max-w-lg h-auto object-contain"
+				class="w-full max-w-xl max-h-[70vh] h-auto object-contain"
 				src="/images/cheska-pic.webp"
 				alt="Francesca outside"
 			/>

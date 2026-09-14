@@ -9,7 +9,7 @@
 
 <div class="flex flex-col min-h-screen">
 	<NavBar />
-    <main class="flex-1 px-6 z-10 sm:px-10 lg:px-16 flex flex-col items-center mt-10 mb-0 pb-0">
+	<main class="flex-1 px-6 z-10 sm:px-10 lg:px-16 flex flex-col items-center my-8 pb-8">
         <!-- Main content goes here -->
         <slot/>
     </main>

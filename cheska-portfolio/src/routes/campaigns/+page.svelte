@@ -4,7 +4,7 @@
 
 <h1 class="text-5xl font-bold mb-4 text-green-800">Campaigns</h1>
 
-<h3 class="text-xl mb-4 text-green-800">
+<h3 class="text-xl mb-4 font-normal text-green-800">
 	Check out some of my favorite projects from college that had no limits.
 </h3>
 

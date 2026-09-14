@@ -4,6 +4,7 @@
 </script>
 
 <svelte:head>
+	<link rel="preload" href="/Logo.png" as="image" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
 </svelte:head>
 
@@ -16,7 +17,7 @@
 
 	<div class="fixed inset-0 z-0 flex items-center justify-center pointer-events-none">
 		<img
-			src="/Logo.png"
+			src="/Logo.webp"
 			alt=""
 			class="h-[100vh] opacity-20 -translate-y-[5vw]"
 		/>

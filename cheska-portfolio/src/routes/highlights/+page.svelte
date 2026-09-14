@@ -1,17 +1,25 @@
 <h1 class="text-5xl font-bold mb-4 text-green-800">Highlights</h1>
 
-<div class="max-w-4xl mx-auto mb-8"> 
-    <h3 class="text-xl mb-4 text-green-800 "> In my role as a Regional Marketing Associate at <a class="underline text-black" href="https://www.forvismazars.us/" target="_blank" rel="noopener noreferrer" > Forvis Mazars</a>, 
-    I have built partnerships with <br/> associations across industries such as technology & services, healthcare, and consumer & logistics. </h3>
+<div class="max-w-4xl mx-auto mb-8">
+	<h3 class="text-xl font-normal mb-4 text-green-800 text-center">
+		In my role as a Regional Marketing Associate at
+		<a
+			class="underline text-black"
+			href="https://www.forvismazars.us/"
+			target="_blank"
+			rel="noopener noreferrer"
+		>
+			Forvis Mazars</a>, I have built partnerships with associations across industries such as technology & services, healthcare, and consumer & logistics.
+	</h3>
 
-    <h3 class="text-xl mb-4 text-green-800">
-        To further these relationships, I have coordinated events to expand brand awareness across <br/> the Northeast Region.
-    </h3>
-    
-    <h3 class="text-xl text-green-800 text-center">
-        Here are some of my favorites that I've worked on:
-    </h3>
-    
+<h3 class="text-xl font-normal mb-4 text-green-800">
+	To further these relationships, I have coordinated events to expand brand awareness in the Northeast Region.
+</h3>
+
+<h3 class="text-xl font-normal text-green-800 text-center">
+	Here are some of my favorites that I've worked on:
+</h3>
+
 </div>
 
 <div class="flex flex-col items-center gap-8 w-full">

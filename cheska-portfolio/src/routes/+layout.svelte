@@ -18,7 +18,7 @@
 		<img
 			src="/Logo.png"
 			alt=""
-			class="w-[1500px] opacity-15 -translate-y-20"
+			class="w-[700px] sm:w-[900px] lg:w-[1200px] xl:w-[1500px] opacity-20 -translate-y-20"
 		/>
 	</div>
 

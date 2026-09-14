@@ -9,12 +9,20 @@
 
 <div class="flex flex-col min-h-screen">
 	<NavBar />
-    <main class="flex-1 px-6 sm:px-10 lg:px-16 flex flex-col items-center mt-10 mb-0 pb-0">
+    <main class="flex-1 px-6 z-10 sm:px-10 lg:px-16 flex flex-col items-center mt-10 mb-0 pb-0">
         <!-- Main content goes here -->
         <slot/>
     </main>
 
-    <footer class="py-6 px-12 flex justify-between items-center bg-black w-full">
+	<div class="fixed inset-0 z-0 flex items-center justify-center pointer-events-none">
+		<img
+			src="/Logo.png"
+			alt=""
+			class="w-[1500px] opacity-15 -translate-y-20"
+		/>
+	</div>
+
+    <footer class="py-6 px-12 flex z-10 justify-between items-center bg-black w-full">
 		<!-- Left section -->
 		<div class="flex items-center">
 			<p class="text-white mb-0">&copy; Francesca Morales 2026</p>

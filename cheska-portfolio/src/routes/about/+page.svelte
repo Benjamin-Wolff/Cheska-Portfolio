@@ -6,14 +6,12 @@
 		<div class="lg:flex-1 lg:pt-10">
 			<!-- Paragraphs -->
 			<p class="mb-4 text-green-800">
-				🍄🧚🏼‍♀️💫🍓 I'm a creative and enthusiastic advertising graduate from Boston University with a natural
-				flair for art direction! When I'm not dreaming up the next big ad campaign I'm working as a Regional Marketing
-				Associate at <a
+				🍄🧚🏼‍♀️💫🍓 I'm a creative and enthusiastic marketing professional with a passion for creating experiences that bring people together. These days, I'm a Regional Marketing Associate at <a
 					class="underline text-black"
 					href="https://www.forvismazars.us/"
 					target="_blank"
 					>Forvis Mazars</a
-				>.
+				>, where I lead events, partnerships, and brand strategies.
 			</p>
 
 			<p class="mb-4 text-green-800">Here's the rundown on me:</p>

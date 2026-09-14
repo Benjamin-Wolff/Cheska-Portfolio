@@ -33,13 +33,16 @@
 				<li>
 					<NavBarItem title="Home" href="/" target="_self" {routeId} />
 				</li>
+				<li>
+					<NavBarItem title="Current Work" href="/highlights" target="_self" {routeId} />
+				</li>
 				<li class="relative dropdown" on:focusout={handleDropdownFocusLoss}>
 					<!-- svelte-ignore a11y-click-events-have-key-events -->
 					<!-- svelte-ignore a11y-no-static-element-interactions -->
 					<div
 						class="px-3 text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 shadow-none"
 						on:click={handleDropdownClick}
-						class:active={routeId == '/campaigns'}>Projects</div>
+						class:active={routeId == '/campaigns'}>Past Work</div>
 					<!-- Dropdown menu -->
 					<ul
 						class="flex-col p-2 shadow bg-base-100 rounded-box w-40"
@@ -51,7 +54,7 @@
 							<a
 								href="/campaigns"
 								class="text-sm text-green-800 rounded md:border-0 md:hover:text-fuchsia-700 text-left"
-								target="_self">Campaigns</a
+								target="_self">College Projects</a
 							>
 						</li>
 						<li>

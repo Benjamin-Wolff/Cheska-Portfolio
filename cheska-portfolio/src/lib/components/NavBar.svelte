@@ -26,7 +26,7 @@
 		<a href="/" class="flex items-center space-x-5">
 			<span class="text-2xl font-medium text-green-800 whitespace-nowrap">Francesca Morales</span>
 		</a>
-		<div class="flex md:justify-end" id="navbar-default">
+		<div class="hidden md:flex md:items-md:w-auto" id="navbar-default">
 			<ul
 				class="text-sm flex flex-col p-3 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-1 md:mt-0 md:border-0"
 			>

@@ -21,7 +21,7 @@
 	};
 </script>
 
-<nav id="navbar" class="border-gray-200">
+<nav id="navbar" class="relative z-20 border-gray-200">
 	<div class="w-full flex items-center justify-between mx-auto py-5 px-8">
 		<a href="/" class="flex items-center space-x-5">
 			<span class="text-2xl font-medium text-green-800 whitespace-nowrap">Francesca Morales</span>
